@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+}
+
+body {
+     background-color: #e1e8fd;
+     font-family: 'Red Hat Display', sans-serif;
+}
+
+.background{
+     height: 600px;
+}
+
+.background img {
+    height: 300px;
+    width: 100%;
+}
+
+.box {
+     background-color: white  ;
+     width: 500px;
+     height: 700px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     box-shadow: 4px 4px 2px 2px gray;
+     border-radius: 25px;
+}
+
+.hero-image {
+     width: 100%;
+     border-radius: 25px 25px 0px 0px;
+     object-fit: cover;
+}
+
+.heading h1 {
+     text-align: center;
+     margin-top: 20px;  
+}
+
+.heading p {
+     text-align: center;
+     padding-top: 20px;
+     font-size: 16px;
+     color: darkgray;
+     padding-left: 70px;
+     padding-right: 70px;
+
+}
+
+.container {
+     display: flex;
+     justify-content: center;
+     padding-top: 30px;
+}
+
+.plan-view {
+     background-color: hsl(225, 100%, 98%);
+     width: 350px;
+     border-radius: 10px;
+     display: flex; 
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+
+.plan-view img {
+     padding: 10px;
+}
+
+.text {
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+
+.text p {
+     padding-top: 5px;
+}
+
+.change {
+     padding-top: 22px;
+     padding-left: 100px;
+}
+
+.change li{
+     list-style: none;
+}
+
+.change a{
+     font-weight: bold;
+     color: rgb(red, green, rgb(2, 2, 187));
+}
+
+.proceed {
+     display: flex;
+     justify-content: center;
+     background-color: rgb(10, 10, 207);
+     color: white;
+     position: absolute;
+     width: 350px;
+     border-radius: 10px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     margin-top: 30px;
+     margin-left: 75px;
+}
+
+.cancel {
+     text-align: center;
+     padding-top: 100px;
+     color: darkgray;
+}
+
+
+
+
